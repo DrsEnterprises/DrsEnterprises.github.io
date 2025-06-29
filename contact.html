@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Safety Nets</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Navbar (Same as index.html, gallery.html, etc.) -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo-placeholder.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="sport_net.html">Sports Net</a></li>
+                            <li><a class="dropdown-item" href="staircase.html">Staircase Safety Net</a></li>
+                            <li><a class="dropdown-item" href="monkey_net.html">Monkey Safety Net</a></li>
+                            <li><a class="dropdown-item" href="balcony-nets.html">Balcony Nets</a></li>
+                            <li><a class="dropdown-item" href="bird-nets.html">Bird Nets</a></li>
+                            <li><a class="dropdown-item" href="children-safety-nets.html">Children Safety Nets</a></li>
+                            <li><a class="dropdown-item" href="construction-nets.html">Construction Nets</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Google Translate (Same as other pages) -->
+    <div class="translate" id="google_translate_element"></div>
+
+    <!-- Social Media Icons -->
+    <div class="social-media fixed-left">
+        <a href="https://wa.me/918019321666" class="social-icon whatsapp animate__animated animate__flash animate__infinite" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com/drssafetynets" class="social-icon instagram animate__animated animate__flash animate__infinite" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="tel:+918019321666" class="social-icon call animate__animated animate__flash animate__infinite">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p class="lead text-center">Reach out for premium safety net solutions. Fill the form to message us directly on WhatsApp!</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="service" class="form-label">Service Required</label>
+                            <select class="form-select" id="service" name="service" required>
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="Sports Net">Sports Net</option>
+                                <option value="Staircase Safety Net">Staircase Safety Net</option>
+                                <option value="Monkey Safety Net">Monkey Safety Net</option>
+                                <option value="Balcony Nets">Balcony Nets</option>
+                                <option value="Bird Nets">Bird Nets</option>
+                                <option value="Children Safety Nets">Children Safety Nets</option>
+                                <option value="Construction Nets">Construction Nets</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter 10-digit phone number" pattern="[0-9]{10}" required>
+                        </div>
+                        <div id="errorMessage" class="text-danger mb-3" style="display: none;"></div>
+                        <button type="submit" class="btn btn-accent w-100">Send to WhatsApp</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as other pages) -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>We provide high-quality safety net solutions for homes, sports facilities, and construction sites across Chennai.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+918019321666" class="text-white">918019321666 </a></p>
+                    <p><i class="fas fa-envelope"></i> info@safetynets.com</p>
+                </div>
+            </div>
+             <div class="text-center mt-3">
+                <p>© 2025 DRS Safety Nets. All Rights Reserved.</p>
+                <a href="tel:+919861221105" style="color: gold;">ASK Solutions</a></p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button (Same as other pages) -->
+    <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="contact.js"></script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+
+        window.addEventListener('scroll', function() {
+            const backToTop = document.querySelector('.back-to-top');
+            if (window.scrollY > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+    </script>
+</body>
+</html>
