@@ -3127,7 +3127,79 @@ footer a:hover {
     }
 }
 
+.experience {
+    background-color: #f8f9fa; /* Matches bg-light */
+    padding: 60px 0;
+}
 
+.experience h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.experience .card {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.experience .card-body {
+    padding: 20px;
+}
+
+.experience h3 {
+    font-size: 1.8rem;
+    color: #007bff; /* Matches btn-primary */
+    margin-bottom: 10px;
+}
+
+.experience p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Happy Clients Section */
+.happy-clients {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.happy-clients h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.happy-clients .card {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.happy-clients .card-body {
+    padding: 20px;
+}
+
+.happy-clients h5 {
+    font-size: 1.3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.happy-clients .progress {
+    height: 20px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.happy-clients .progress-bar {
+    background-color: #007bff; /* Matches btn-primary */
+    font-size: 0.9rem;
+    line-height: 20px;
+}
 
 
 
